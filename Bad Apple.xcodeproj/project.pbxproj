@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		28CE4F7B261E648300D2D861 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CE4F7A261E648300D2D861 /* AppDelegate.swift */; };
-		28CE4F7D261E648300D2D861 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CE4F7C261E648300D2D861 /* ViewController.swift */; };
 		28CE4F7F261E648400D2D861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28CE4F7E261E648400D2D861 /* Assets.xcassets */; };
 		28CE4F82261E648400D2D861 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28CE4F80261E648400D2D861 /* Main.storyboard */; };
+		28CE4F8D261E64A600D2D861 /* badapple-alpha.mov in Resources */ = {isa = PBXBuildFile; fileRef = 28CE4F8C261E64A600D2D861 /* badapple-alpha.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		28CE4F77261E648300D2D861 /* Bad Apple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bad Apple.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28CE4F7A261E648300D2D861 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		28CE4F7C261E648300D2D861 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		28CE4F7E261E648400D2D861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28CE4F81261E648400D2D861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28CE4F83261E648400D2D861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28CE4F84261E648400D2D861 /* Bad_Apple.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bad_Apple.entitlements; sourceTree = "<group>"; };
+		28CE4F8C261E64A600D2D861 /* badapple-alpha.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "badapple-alpha.mov"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +53,8 @@
 		28CE4F79261E648300D2D861 /* Bad Apple */ = {
 			isa = PBXGroup;
 			children = (
+				28CE4F8C261E64A600D2D861 /* badapple-alpha.mov */,
 				28CE4F7A261E648300D2D861 /* AppDelegate.swift */,
-				28CE4F7C261E648300D2D861 /* ViewController.swift */,
 				28CE4F7E261E648400D2D861 /* Assets.xcassets */,
 				28CE4F80261E648400D2D861 /* Main.storyboard */,
 				28CE4F83261E648400D2D861 /* Info.plist */,
@@ -120,6 +120,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28CE4F8D261E64A600D2D861 /* badapple-alpha.mov in Resources */,
 				28CE4F7F261E648400D2D861 /* Assets.xcassets in Resources */,
 				28CE4F82261E648400D2D861 /* Main.storyboard in Resources */,
 			);
@@ -132,7 +133,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28CE4F7D261E648300D2D861 /* ViewController.swift in Sources */,
 				28CE4F7B261E648300D2D861 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
